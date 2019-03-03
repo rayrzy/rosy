@@ -43,8 +43,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
 vendor.qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7 \
-ro.qualcomm.bt.hci_transport=smd \
-persist.vendor.service.bdroid.sibs=false
+ro.vendor.qualcomm.bt.hci_transport=smd \
+persist.vendor.service.bdroid.sibs=false \
+persist.vendor.bt.enable.splita2dp=false
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
