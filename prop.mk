@@ -47,6 +47,10 @@ ro.vendor.qualcomm.bt.hci_transport=smd \
 persist.vendor.service.bdroid.sibs=false \
 persist.vendor.bt.enable.splita2dp=false
 
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.vendor.shutdown.waittime=500
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
