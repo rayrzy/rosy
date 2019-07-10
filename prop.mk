@@ -89,6 +89,7 @@ persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.hardware.vulkan=adreno \
 ro.hardware.egl=adreno \
+debug.sdm.support_writeback=0 \
 ro.vendor.display.cabl=2 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
