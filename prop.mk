@@ -167,7 +167,8 @@ ro.vendor.qti.am.reschedule_service=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.qti.sys.fw.bservice_enable=true
+debug.qcom_ignore_qperf=true \
+debug.qcom_ignore_uxperf=true
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
