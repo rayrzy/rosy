@@ -438,7 +438,7 @@
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
      <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">false</bool>
+     <bool name="config_displayBlanksAfterDoze">true</bool>
 
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
