@@ -8,3 +8,4 @@ persist.vendor.data.qmipriod_load  u:object_r:vendor_radio_prop:s0
 camera.dual.mode           u:object_r:camera_prop:s0
 vendor.wlan.               u:object_r:vendor_wifi_version:s0
 wifi.active.interface      u:object_r:wifi_prop:s0
+vidc.enc.dcvs.extra-buff-count  u:object_r:vendor_default_prop:s0
