@@ -127,7 +127,6 @@ ro.lmk.log_stats=true
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
-debug.media.codec2=2 \
 debug.stagefright.omx_default_rank.sw-audio=1 \
 debug.stagefright.omx_default_rank=0 \
 media.msm8956hw=0 \
