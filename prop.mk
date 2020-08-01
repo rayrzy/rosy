@@ -97,6 +97,10 @@ sys.display-size=1920x1080
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
 
+# Enable QC2 bufferqueue block-pool
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.qc2.use.bqpool=1
+
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.qfp=false
