@@ -5,3 +5,8 @@ set_prop(system_app, fm_prop)
 r_dir_file(system_app sysfs_zram)
 
 binder_call(system_app, wificond)
+
+# allow system apps to read battery status
+allow system_app system_data_file:dir { write };
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file { open read getattr };
