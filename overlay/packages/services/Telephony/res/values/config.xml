@@ -16,4 +16,9 @@
 <resources>
     <!-- The package name for the platform carrier config app, bundled with system image. -->
     <string name="platform_carrier_config_package" translatable="false">com.google.android.carrier</string>
+
+    <!-- Determine whether calls to mute the microphone in PhoneUtils
+         are routed through the android.media.AudioManager class (true) or through
+         the com.android.internal.telephony.Phone interface (false). -->
+    <bool name="send_mic_mute_to_AudioManager">true</bool>
 </resources>
