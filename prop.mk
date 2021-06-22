@@ -174,6 +174,11 @@ persist.rild.nitz_short_ons_1="" \
 persist.rild.nitz_short_ons_2="" \
 persist.rild.nitz_short_ons_3=""
 
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+iorapd.perfetto.enable=true \
+iorapd.readahead.enable=true
+
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.qti.va_aosp.support=1 \
