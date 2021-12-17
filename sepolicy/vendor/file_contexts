@@ -45,3 +45,9 @@
 
 # Service HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.authsecret@1\.0-service u:object_r:hal_authsecret_default_exec:s0
+
+# QS Device Info
+/sys/class/thermal/thermal_zone0/temp          u:object_r:sysfs_device_info:s0
+/sys/kernel/gpu/gpu_clock                      u:object_r:sysfs_device_info:s0
+/sys/kernel/gpu/gpu_busy                       u:object_r:sysfs_device_info:s0
+/sys/class/power_supply/battery/temp           u:object_r:sysfs_device_info:s0
