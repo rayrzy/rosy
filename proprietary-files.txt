@@ -1070,10 +1070,10 @@ vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 vendor/lib64/libops.so|03dc247cbf3e75f8dedf05b779eb65006f7334cd
 vendor/lib64/libspl.so|609af852a498b0a50eb00f2d75913e0fbcbbaee6
 
-# DRM-Widevine - LA.UM.8.6.r1-04000-89xx.0
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|75335443a33a06a03eecfa714dfe9f1c0c4df2b1
-vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
+# DRM (Widevine) - from LA.UM.8.6.r1-04400-89xx.0
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|f4258fe902140e7a35c59f79d274dde89a80d1e8
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|ad2769dc38c425495c80e0a2cc4f3a4012108917
+vendor/lib64/libwvhidl.so|1b0dce24a4f77883785999b9cf6cb5686232c3b3
 
 # Display-calibration - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/etc/qdcm_calib_data_ft8006m_boe_5p7_720p_video.xml|beb50377ce04f8903527945228ac83c5739bc61a
